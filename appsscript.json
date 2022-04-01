@@ -1,0 +1,27 @@
+{
+  "timeZone": "Europe/London",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "People",
+        "serviceId": "peopleapi",
+        "version": "v1"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "bmDuster",
+        "libraryId": "1iBu-3kNBl2TKGeiQLKKDHte22dI0J9Z55SwYktpfbXCbxB0yrbG9ngC-",
+        "version": "2",
+        "developmentMode": false
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/userinfo.profile",
+    "https://www.googleapis.com/auth/script.external_request"
+  ]
+}
